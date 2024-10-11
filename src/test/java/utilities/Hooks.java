@@ -1,4 +1,4 @@
-package steps;
+package utilities;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
@@ -21,5 +21,6 @@ public class Hooks extends BasePage {
             byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
             Allure.addAttachment("FailedScreenshot", new ByteArrayInputStream(screenshot));
         }
+
     }
 }

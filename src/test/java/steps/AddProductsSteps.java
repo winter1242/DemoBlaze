@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsInAnyOrder;
 
-public class addProductsSteps {
+public class AddProductsSteps {
     ListProductPage listProductPage = new ListProductPage();
     ProductPage productPage = new ProductPage();
     CartPage cartPage = new CartPage();
