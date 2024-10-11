@@ -13,3 +13,5 @@ Feature: Navigation
   Scenario: El usuario puede agregar productos al carro
     When Selecciono la categoia Phone
     And Selecciono el producto en la lista
+    And Clic en el carrito de compras
+    Then Se muestra los productos agregados
