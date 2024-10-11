@@ -10,7 +10,7 @@ import pages.BasePage;
 @CucumberOptions(features = "src/test/resources",
         glue = "steps",
         plugin = {"pretty", "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
-        tags = "@API")
+        tags = "@API or @WEB")
 
 public class TestRunner {
     @AfterClass
